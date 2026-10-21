@@ -1,3 +1,4 @@
+
 {
   "name": "p10",
   "version": "0.1.0",
@@ -17,6 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "testcase": "CI=true react-scripts test --watchAll=false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
